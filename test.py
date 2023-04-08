@@ -1,6 +1,11 @@
-print('my name')
+words = ["Hello", "Goodbye", "chill"]
 
-print('My name is Connor')
+words.insert(2, "Bye")
+print(words[3])
+
+words.append("goodday")
+
+print(words)
 
 
 
